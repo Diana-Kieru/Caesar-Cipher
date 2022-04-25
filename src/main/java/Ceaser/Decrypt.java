@@ -22,4 +22,18 @@ public class Decrypt {
                     }else {
                         decrypted += r;
                     }
+                }else if(Character.isLowerCase(letter)){
+                    char r = (char)(letter-key);
+                    if(letter > 'z'){
+                        decrypted+= (char)(letter-(26+key));
+                    }else {
+                        decrypted+=r;
+                    }
+                }
+            }else {
+                decrypted+=letter;
+            }
+
+        }
+    }
 }
