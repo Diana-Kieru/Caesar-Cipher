@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2a8375-4aa4-46de-9eaf-abde12effce6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ceaser/Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ceaser/Decrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ceaser/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ceaser/Encrypt.java" afterDir="false" />
-    </list>
+    <list default="true" id="2d2a8375-4aa4-46de-9eaf-abde12effce6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
