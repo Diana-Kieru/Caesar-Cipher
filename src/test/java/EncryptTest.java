@@ -1,8 +1,7 @@
 import Ceaser.Encrypt;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class EncryptTest {
     @Test
@@ -22,6 +21,12 @@ public class EncryptTest {
         Encrypt encrypt = new Encrypt();
         String  actual = encrypt.encoding("AB",1);
         assertNotNull(actual);
+    }
+    @Test
+    public void  encrypt_encryptText_string() throws Exception {
+        Encrypt encrypt = new Encrypt();
+        String  actual = encrypt.encoding("AB",1);
+        assertEquals("BC",actual);
     }
 
 }
