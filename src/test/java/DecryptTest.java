@@ -1,8 +1,7 @@
 import Ceaser.Decrypt;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class DecryptTest {
     @Test
@@ -15,6 +14,16 @@ public class DecryptTest {
         Decrypt decrypt = new Decrypt("BC",1);
         decrypt.getDecrypted();
         assertTrue(decrypt.getDecrypted() instanceof String );
+    }
+    @Test
+    public  void decrypt_encryptedText_string() throws Exception {
+        Decrypt decrypt = new Decrypt("BC",1);
+        decrypt.Decode();
+        String actual = decrypt.getDecrypted();
+        String expected = "AB";
+
+        assertEquals(expected,actual);
+
     }
 
 }
