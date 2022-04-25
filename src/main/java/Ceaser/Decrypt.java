@@ -36,4 +36,9 @@ public class Decrypt {
 
         }
     }
+    public String getDecrypted() {
+        return decrypted;
+    }
 }
+
+
