@@ -26,5 +26,17 @@ public class Encrypt {
                         encrypted += r;
                     }
                 }
+            }else {
+                encrypted += letter;
+            }
+        }
+
+        return  encrypted;
 
     }
+
+    public String getEncrypted() {
+        return encrypted;
+    }
+}
+
